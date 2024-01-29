@@ -3,8 +3,8 @@ import express from 'express';
 
 const app = express()
 
-app.listen(3000, () => console.log('Api running on port 5001'))
+app.listen(3000, () => console.log('Api running on port 3000'))
 
-app.get('/', (req, res) => res.json('My Api running'))
+app.get('/', (req, res) => res.json('Working ra'))
 
 
